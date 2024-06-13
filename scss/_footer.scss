@@ -1,0 +1,18 @@
+@use "global" as *;
+footer{
+  margin: 6rem auto 0;
+  padding-bottom: 2rem;
+  @include deviceSP{
+    background: #0059FF;
+    padding: 5px ;
+  }
+  p{
+    color: #0059FF;
+    text-align: center;
+    font: 700 1.2rem / 1.6 $font;
+    @include deviceSP{
+      color: #fff;
+      font-size: 1rem;
+    }
+  }
+}
